@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Morpessa — The QA Engineer on Discord · by Naaxtech</title>
+<meta name="description" content="Morpessa is Naaxtech's QA Engineer for Discord. She tests every Naaxtech project, files clear findings, and keeps the team in sync without leaving the server.">
+<meta property="og:title" content="Morpessa — The QA Engineer on Discord">
+<meta property="og:description" content="Naaxtech's QA Engineer, living in Discord. Tests, findings and verification across every Naaxtech project.">
+<meta property="og:image" content="assets/morpessa.jpg">
+<meta name="theme-color" content="#07061c">
+<link rel="icon" href="assets/morpessa.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/morpessa.jpg" alt="">MORPESSA</a>
+    <nav aria-label="Primary">
+      <a class="hide-sm" href="#how">How she works</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="https://naaxtech.com" target="_blank" rel="noopener">Naaxtech ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Discord app · QA Engineer · by Naaxtech</p>
+        <h1>Every build, <em>watched</em> over.</h1>
+        <p class="lede">Morpessa is Naaxtech's QA Engineer, living inside Discord. She runs test passes across every Naaxtech project, reports what broke and how to reproduce it, and confirms the fix, right in the channel where the team already works.</p>
+        <div class="cta-row">
+          <a class="btn" href="#how">See how she works</a>
+          <a class="btn ghost" href="https://naaxtech.com" target="_blank" rel="noopener">Built by Naaxtech ↗</a>
+        </div>
+      </div>
+      <div class="portrait">
+        <span class="sparkle s1"></span><span class="sparkle s2"></span><span class="sparkle s3"></span>
+        <div class="frame"><img src="assets/morpessa.jpg" alt="Morpessa, a pixel-art goddess of dreams with glowing eyes, a crescent-moon circlet and star-filled hair" width="535" height="540"></div>
+        <div class="tag">status: <b>on watch</b><br>role: qa_engineer</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="num">01 / THE LOOP</span>
+        <div>
+          <h2>From "is it working?" to "verified."</h2>
+          <p>Morpessa follows the same disciplined loop on every project, so findings are consistent, reproducible and easy to hand over.</p>
+        </div>
+      </div>
+      <ol class="loop">
+        <li><span class="cmd">› request</span><h3>Ask in the channel</h3><p>A team member asks Morpessa to test a project, a build, a page or a flow, in plain language.</p></li>
+        <li><span class="cmd">› test</span><h3>She runs the pass</h3><p>Morpessa exercises the app the way a user would, checking flows, states and edge cases against what should happen.</p></li>
+        <li><span class="cmd">› report</span><h3>Findings, not noise</h3><p>Each issue comes back with where it happened, steps to reproduce, expected versus actual, and a suggested fix.</p></li>
+        <li><span class="cmd">› verify</span><h3>Fix confirmed</h3><p>When a fix ships, Morpessa re-tests it and closes the loop, so "done" means verified, not assumed.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap split">
+      <div class="console" aria-label="Example Morpessa exchange in Discord">
+        <div class="bar"><i></i><i></i><i></i># qa-reports</div>
+<pre><span class="u">@team</span>  <span class="k">@Morpessa</span> test the checkout flow on staging
+
+<span class="g">Morpessa</span>  On it. Running a pass on checkout…
+
+  <span class="ok">✔</span> cart updates quantity
+  <span class="ok">✔</span> address form validates
+  <span class="bad">✘</span> promo code accepted twice
+
+  <span class="g">ISSUE</span> Promo applied on every resubmit
+  steps   apply code → submit → back → submit
+  expect  one discount
+  actual  discount stacks
+  fix     lock code to order on first apply</pre>
+      </div>
+      <div>
+        <div class="section-head" style="grid-template-columns:1fr;margin-bottom:24px">
+          <span class="num">02 / ACROSS NAAXTECH</span>
+          <h2>One QA engineer for every project.</h2>
+        </div>
+        <ul>
+          <li><b>Lives in Discord.</b> <span>No new dashboard to learn; findings land where the team talks.</span></li>
+          <li><b>Works on all Naaxtech projects.</b> <span>Web, admin and mobile, held to the same standard.</span></li>
+          <li><b>Reproducible by design.</b> <span>Every finding is written so another developer can pick it up cold.</span></li>
+          <li><b>Respects your server.</b> <span>She only acts when asked, and only where she's been given access. See the <a href="privacy.html">Privacy Policy</a>.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="band">
+        <div>
+          <h2>Built by Naaxtech.</h2>
+          <p>Morpessa is developed and operated by NAAX TECHNOLOGIES CORP, a technology execution partner registered in the Philippines, building systems, automation and AI for growing businesses.</p>
+        </div>
+        <a class="btn" href="https://naaxtech.com" target="_blank" rel="noopener">Visit naaxtech.com ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span class="y">2026</span> NAAX TECHNOLOGIES CORP. All rights reserved. Morpessa is not affiliated with or endorsed by Discord Inc.</span>
+    <nav aria-label="Footer">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="mailto:hello@naaxtech.com">hello@naaxtech.com</a>
+      <a href="https://naaxtech.com" target="_blank" rel="noopener">naaxtech.com</a>
+    </nav>
+  </div>
+</footer>
+<script>document.querySelectorAll('.y').forEach(e=>e.textContent=new Date().getFullYear())</script>
+</body>
+</html>
