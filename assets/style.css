@@ -233,3 +233,5 @@ address { font-style: normal; }
 .hats b { display: block; font: 400 13px var(--pixel); letter-spacing: .08em; color: var(--gold); margin-bottom: 6px; text-transform: uppercase; }
 .hats span { color: var(--muted); font-size: 15px; }
 .toc { scrollbar-width: thin; scrollbar-color: var(--violet) transparent; }
+
+.section-head.single-col { grid-template-columns: 1fr; margin-bottom: 24px; }
